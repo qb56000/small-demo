@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28c924a40442511d0b3bcf9a1b72e797",
+    "revision": "fc16afc31213effe744b1cfcef6cb4f5",
     "url": "/React-Practice/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Practice/static/css/11.0ee4217f.chunk.css"
   },
   {
-    "revision": "4383330a1f4ab4976496",
+    "revision": "3bf81905864fbe7b43f2",
     "url": "/React-Practice/static/css/12.aa97a44c.chunk.css"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Practice/static/css/9.bf0fc6f2.chunk.css"
   },
   {
-    "revision": "62493d57a8686be9f12e",
+    "revision": "2633cd72fbb462203d52",
     "url": "/React-Practice/static/css/main.29d226a2.chunk.css"
   },
   {
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Practice/static/js/11.c6b7c634.chunk.js"
   },
   {
-    "revision": "4383330a1f4ab4976496",
-    "url": "/React-Practice/static/js/12.0e4142b2.chunk.js"
+    "revision": "3bf81905864fbe7b43f2",
+    "url": "/React-Practice/static/js/12.c6186706.chunk.js"
   },
   {
     "revision": "430545a71a06588afca7",
@@ -140,12 +140,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Practice/static/js/9.ea7ca754.chunk.js"
   },
   {
-    "revision": "62493d57a8686be9f12e",
-    "url": "/React-Practice/static/js/main.5b46766a.chunk.js"
+    "revision": "2633cd72fbb462203d52",
+    "url": "/React-Practice/static/js/main.4f3360b5.chunk.js"
   },
   {
-    "revision": "c7e445cf1f7f8373b0bb",
-    "url": "/React-Practice/static/js/runtime-main.538ccd5d.js"
+    "revision": "ea23b9885bca35f14ba8",
+    "url": "/React-Practice/static/js/runtime-main.9ec711aa.js"
   },
   {
     "revision": "0e90bd819050bd69459f2cc0bb338819",

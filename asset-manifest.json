@@ -16,10 +16,10 @@
     "static/js/4.3ebb2aaa.chunk.js": "/React-Practice/static/js/4.3ebb2aaa.chunk.js",
     "static/js/4.3ebb2aaa.chunk.js.map": "/React-Practice/static/js/4.3ebb2aaa.chunk.js.map",
     "main.css": "/React-Practice/static/css/main.29d226a2.chunk.css",
-    "main.js": "/React-Practice/static/js/main.5b46766a.chunk.js",
-    "main.js.map": "/React-Practice/static/js/main.5b46766a.chunk.js.map",
-    "runtime-main.js": "/React-Practice/static/js/runtime-main.538ccd5d.js",
-    "runtime-main.js.map": "/React-Practice/static/js/runtime-main.538ccd5d.js.map",
+    "main.js": "/React-Practice/static/js/main.4f3360b5.chunk.js",
+    "main.js.map": "/React-Practice/static/js/main.4f3360b5.chunk.js.map",
+    "runtime-main.js": "/React-Practice/static/js/runtime-main.9ec711aa.js",
+    "runtime-main.js.map": "/React-Practice/static/js/runtime-main.9ec711aa.js.map",
     "static/css/7.ae8529e2.chunk.css": "/React-Practice/static/css/7.ae8529e2.chunk.css",
     "static/js/7.f2faa73b.chunk.js": "/React-Practice/static/js/7.f2faa73b.chunk.js",
     "static/js/7.f2faa73b.chunk.js.map": "/React-Practice/static/js/7.f2faa73b.chunk.js.map",
@@ -36,8 +36,8 @@
     "static/js/11.c6b7c634.chunk.js": "/React-Practice/static/js/11.c6b7c634.chunk.js",
     "static/js/11.c6b7c634.chunk.js.map": "/React-Practice/static/js/11.c6b7c634.chunk.js.map",
     "static/css/12.aa97a44c.chunk.css": "/React-Practice/static/css/12.aa97a44c.chunk.css",
-    "static/js/12.0e4142b2.chunk.js": "/React-Practice/static/js/12.0e4142b2.chunk.js",
-    "static/js/12.0e4142b2.chunk.js.map": "/React-Practice/static/js/12.0e4142b2.chunk.js.map",
+    "static/js/12.c6186706.chunk.js": "/React-Practice/static/js/12.c6186706.chunk.js",
+    "static/js/12.c6186706.chunk.js.map": "/React-Practice/static/js/12.c6186706.chunk.js.map",
     "static/css/13.98b55014.chunk.css": "/React-Practice/static/css/13.98b55014.chunk.css",
     "static/js/13.0b37e131.chunk.js": "/React-Practice/static/js/13.0b37e131.chunk.js",
     "static/js/13.0b37e131.chunk.js.map": "/React-Practice/static/js/13.0b37e131.chunk.js.map",
@@ -56,7 +56,7 @@
     "static/js/19.ac9a3720.chunk.js": "/React-Practice/static/js/19.ac9a3720.chunk.js",
     "static/js/19.ac9a3720.chunk.js.map": "/React-Practice/static/js/19.ac9a3720.chunk.js.map",
     "index.html": "/React-Practice/index.html",
-    "precache-manifest.307846c17c0c11ca0ac13e3c5e698706.js": "/React-Practice/precache-manifest.307846c17c0c11ca0ac13e3c5e698706.js",
+    "precache-manifest.09ceaa4bd33beee294e014be923a8a6c.js": "/React-Practice/precache-manifest.09ceaa4bd33beee294e014be923a8a6c.js",
     "service-worker.js": "/React-Practice/service-worker.js",
     "static/css/0.0b8fd066.chunk.css.map": "/React-Practice/static/css/0.0b8fd066.chunk.css.map",
     "static/css/1.33ec0953.chunk.css.map": "/React-Practice/static/css/1.33ec0953.chunk.css.map",
@@ -77,10 +77,10 @@
     "static/media/MiLogo.png": "/React-Practice/static/media/MiLogo.0e90bd81.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.538ccd5d.js",
+    "static/js/runtime-main.9ec711aa.js",
     "static/css/8.68415c8b.chunk.css",
     "static/js/8.280a2775.chunk.js",
     "static/css/main.29d226a2.chunk.css",
-    "static/js/main.5b46766a.chunk.js"
+    "static/js/main.4f3360b5.chunk.js"
   ]
 }
