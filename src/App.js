@@ -46,7 +46,7 @@ class App extends Component {
                 })
             }
             <Redirect to={adminRouter[0].pathname} from='/admin' exact></Redirect>
-            <Redirect to='/404' ></Redirect>
+            {/* <Redirect to='/404' ></Redirect> */}
             </Switch>
             </Frame>
             :

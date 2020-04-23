@@ -20,8 +20,8 @@ render(
             })
             }
             <Redirect to="/admin" from='/' exact></Redirect>
-
-            <Redirect to="/404" ></Redirect>
+{/* 
+            <Redirect to="/404" ></Redirect> */}
 
 
         </Switch>
