@@ -1,0 +1,2 @@
+(this["webpackJsonpreal-project"]=this["webpackJsonpreal-project"]||[]).push([[16],{1014:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return s}));var r=n(37),a=n(38),c=n(40),o=n(39),u=n(41),i=n(0),p=n.n(i),s=function(e){function t(){return Object(r.a)(this,t),Object(c.a)(this,Object(o.a)(t).apply(this,arguments))}return Object(u.a)(t,e),Object(a.a)(t,[{key:"render",value:function(){return p.a.createElement("div",null,"you are not allowed to view this page")}}]),t}(i.Component)}}]);
+//# sourceMappingURL=16.aea8e23e.chunk.js.map
