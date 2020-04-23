@@ -40,17 +40,17 @@ class App extends Component {
                             console.log("ele",ele)
                             console.log("ele2",this.props.role)
 
-                            return (ele.roles.includes(this.props.role)?<ele.component {...routerProps}/>:<Redirect to='/admin/authentication'></Redirect>)
+                            return (ele.roles.includes(this.props.role)?<ele.component {...routerProps}/>:<Redirect to='/React-Practice/admin/authentication'></Redirect>)
                         }
                     } exact={ele.exact}></Route>
                 })
             }
-            <Redirect to={adminRouter[0].pathname} from='/admin' exact></Redirect>
+            <Redirect to={adminRouter[0].pathname} from='/React-Practice/admin' exact></Redirect>
             {/* <Redirect to='/404' ></Redirect> */}
             </Switch>
             </Frame>
             :
-            <Redirect to='/login' ></Redirect>
+            <Redirect to='/React-Practice/login' ></Redirect>
 
         )
     }

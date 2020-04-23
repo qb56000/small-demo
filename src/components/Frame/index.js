@@ -41,13 +41,13 @@ this.props.logFailed()
   render() {
     const menu = (
       <Menu onClick={this.dropDownMenuClick}>
-        <Menu.Item key="/admin/notifications">
+        <Menu.Item key="/React-Practice/admin/notifications">
          <Badge dot={Boolean(this.props.number)}>
          通知中心
          </Badge>
             
         </Menu.Item>
-        <Menu.Item key="/admin/settings">
+        <Menu.Item key="/React-Practice/admin/settings">
       
             个人设置
         </Menu.Item>

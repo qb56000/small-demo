@@ -10,7 +10,7 @@ render(
     <Provider store={store} basename={process.env.PUBLIC_URL}>
     <Router>
         <Switch>
-            <Route path='/admin' render={(routerPropers)=>{
+            <Route path='/React-Practice/admin' render={(routerPropers)=>{
                 return <App {...routerPropers}></App>
             }} ></Route>
 
@@ -19,7 +19,7 @@ render(
                     return <Route key={ route.pathname} path={route.pathname} component={route.component}></Route>
             })
             }
-            <Redirect to="/admin" from='/' exact></Redirect>
+            <Redirect to="/React-Practice/admin" from='/React-Practice/' exact></Redirect>
 {/* 
             <Redirect to="/404" ></Redirect> */}
 
