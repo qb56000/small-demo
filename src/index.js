@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Route, Switch,Redirect} from 'react-router-dom'
 import {Provider} from 'react-redux'
 import store from './store'
 render(
-    <Provider store={store}>
+    <Provider store={store} basename={process.env.PUBLIC_URL}>
     <Router>
         <Switch>
             <Route path='/admin' render={(routerPropers)=>{
