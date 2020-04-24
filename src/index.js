@@ -20,8 +20,8 @@ render(
             })
             }
             <Redirect to="/React-Practice/admin" from='/React-Practice/' exact></Redirect>
-{/* 
-            <Redirect to="/404" ></Redirect> */}
+
+            <Redirect to="/404" ></Redirect>
 
 
         </Switch>

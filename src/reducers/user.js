@@ -6,7 +6,7 @@ const info=JSON.parse(window.localStorage.getItem("info") )|| JSON.parse(window.
 
 const initState={
     ...info,
-    isLogin,
+    isLogin:true,
     isLoading:false
 }
 
@@ -20,15 +20,12 @@ export default(state=initState,action)=>{
                 isLoading:true
             }
         case actionTypes.LOG_SUCCESS:
-            console.log("ele0",state)
-
             return {
                 ...state,
                 isLoading:false,
                 isLogin:true
             }
         case actionTypes.LOG_FAIL:
-            console.log('fail')
             return{
                 id: "",
                 avatar: "",
