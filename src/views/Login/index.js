@@ -43,7 +43,7 @@ class index extends Component {
 
       return (
           this.props.isLogin?
-<Redirect to="/React-Practice/admin"></Redirect>
+<Redirect to="/admin"></Redirect>
 :
           <Card title={"Login"} className="card">
         <Form

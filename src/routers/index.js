@@ -13,22 +13,22 @@ import { Component } from "react";
 
 export const mainRouter = [
   {
-    pathname: "/React-Practice/login",
+    pathname: "/login",
     component: Login
   },
   {
-    pathname: "/React-Practice/404",
+    pathname: "/404",
     component: NotFound
   },
   {
-    pathname: "/React-Practice/login",
+    pathname: "/login",
     component: Login
   }
 ];
 
 export const  adminRouter=[
     {
-        pathname: "/React-Practice/admin/dashboard",
+        pathname: "/admin/dashboard",
         component: Dashboard,
         title:"Dashboard",
         isNav: true,
@@ -37,7 +37,7 @@ export const  adminRouter=[
       },
       
       {
-        pathname: "/React-Practice/admin/article",
+        pathname: "/admin/article",
         component: Article,
         title:"Article",
         exact:true,
@@ -46,7 +46,7 @@ export const  adminRouter=[
         roles:['001','002']
       },
       {
-        pathname: "/React-Practice/admin/article/edit/:id",
+        pathname: "/admin/article/edit/:id",
         component: ArticleEdit,
         title:"ArticleEdit",
         isNav: false,
@@ -54,7 +54,7 @@ export const  adminRouter=[
 
       },
       {
-        pathname: "/React-Practice/admin/settings",
+        pathname: "/admin/settings",
         title:"Settings",
         component: Settings,
         isNav: true,
@@ -63,7 +63,7 @@ export const  adminRouter=[
 
       },
       {
-        pathname: "/React-Practice/admin/notifications",
+        pathname: "/admin/notifications",
         title:"Notification",
         component: Notification,
         isNav: false,
@@ -71,7 +71,7 @@ export const  adminRouter=[
 
       },
       {
-        pathname: "/React-Practice/admin/authentication",
+        pathname: "/admin/authentication",
         component: Authentication,
         title:"Authentication",
         isNav: false,

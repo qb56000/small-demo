@@ -2,7 +2,6 @@
   "name": "real-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://qb56000.github.io/React-Practice",
   "dependencies": {
     "@ant-design/codemod-v4": "^1.1.0",
     "@ant-design/icons": "^4.0.3",
@@ -29,8 +28,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
