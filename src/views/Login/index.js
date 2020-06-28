@@ -1,51 +1,45 @@
 import React, { Component } from "react";
-import { Form, Input, Button, Checkbox ,Card} from "antd";
-import './index.less'
-import {Login} from '../../actions/user'
-import {connect } from 'react-redux'
-import {Redirect } from 'react-router-dom'
+import { Form, Input, Button, Checkbox, Card } from "antd";
+import "./index.less";
+import { Login } from "../../actions/user";
+import { connect } from "react-redux";
+import { Redirect } from "react-router-dom";
 
 const layout = {
-    labelCol: {
-      span: 4,
-    },
-    wrapperCol: {
-      span: 20,
-    },
-  };
-  const tailLayout = {
-    wrapperCol: {
-      offset: 8,
-      span: 16,
-    },
-  };
+  labelCol: {
+    span: 4,
+  },
+  wrapperCol: {
+    span: 20,
+  },
+};
+const tailLayout = {
+  wrapperCol: {
+    offset: 8,
+    span: 16,
+  },
+};
 
-  
+const mapToProps = (state) => {
+  return {
+    isLogin: state.user.isLogin,
+    isLoading: state.user.isLoading,
+  };
+};
 
-const mapToProps=state=>{
-    return{
-        isLogin: state.user.isLogin,
-        isLoading:state.user.isLoading
-    }
-}
-@connect(mapToProps,{Login})
+@connect(mapToProps, { Login })
 class index extends Component {
   render() {
     const onFinish = (values) => {
-        this.props.Login(values)
-  
-      console.log("Success:", values);
+      this.props.Login(values);
     };
 
-    const onFinishFailed = (errorInfo) => {
-      console.log("Failed:", errorInfo);
-    };
+    const onFinishFailed = (errorInfo) => {};
 
-      return (
-          this.props.isLogin?
-<Redirect to="/admin"></Redirect>
-:
-          <Card title={"Login"} className="card">
+    return this.props.isLogin ? (
+      <Redirect to="/admin"></Redirect>
+    ) : (
+      <Card title={"Login"} className="card">
         <Form
           {...layout}
           name="basic"
@@ -65,13 +59,12 @@ class index extends Component {
               },
             ]}
           >
-            <Input  disabled={this.props.isLoading} />
+            <Input disabled={this.props.isLoading} />
           </Form.Item>
 
           <Form.Item
             label="Password"
             name="password"
-            
             rules={[
               {
                 required: true,
@@ -79,7 +72,7 @@ class index extends Component {
               },
             ]}
           >
-            <Input.Password   disabled={this.props.isLoading}/>
+            <Input.Password disabled={this.props.isLoading} />
           </Form.Item>
 
           <Form.Item {...tailLayout} name="remember" valuePropName="checked">
@@ -87,14 +80,18 @@ class index extends Component {
           </Form.Item>
 
           <Form.Item {...tailLayout}>
-            <Button type="primary" htmlType="submit" loading={this.props.isLoading}>
+            <Button
+              type="primary"
+              htmlType="submit"
+              loading={this.props.isLoading}
+            >
               Submit
             </Button>
           </Form.Item>
         </Form>
-        </Card>
-      );
-    };
+      </Card>
+    );
   }
+}
 
-  export default index
+export default index;

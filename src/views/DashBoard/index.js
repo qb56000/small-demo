@@ -40,10 +40,10 @@ export default class index extends Component {
           ],
         });
       })
-      .finally(()=>{
-          this.setState({
-              isloading:false
-          })
+      .finally(() => {
+        this.setState({
+          isloading: false,
+        });
       });
     // 绘制图表
   };
@@ -60,23 +60,22 @@ export default class index extends Component {
         <Card title="Dashboard" bordered={false}>
           <Row gutter={16}>
             <Col className="gutter-row" span={6}>
-              <div style={style}>col-6</div>
+              <div style={style}>this is test placeholder</div>
             </Col>
             <Col className="gutter-row" span={6}>
-              <div style={style}>col-6</div>
+              <div style={style}>this is test placeholder</div>
             </Col>
             <Col className="gutter-row" span={6}>
-              <div style={style}>col-6</div>
+              <div style={style}>this is test placeholder</div>
             </Col>
             <Col className="gutter-row" span={6}>
-              <div style={style}>col-6</div>
+              <div style={style}>this is test placeholder</div>
             </Col>
           </Row>
         </Card>
         <Card title="Reading amount" bordered={false}>
           <Spin spinning={this.state.isloading}>
-            <div ref={this.amountChart} style={{ height: "400px" }}>
-          </div>
+            <div ref={this.amountChart} style={{ height: "400px" }}></div>
           </Spin>
         </Card>
       </>
